@@ -9,7 +9,7 @@ A clean, responsive calculator built with HTML, CSS, and JavaScript. Use it onli
 ## Preview
 
 <p align="center">
-  <img src="assets/calculator-screenshot.png" alt="Screenshot of the calculator interface" width="360">
+  <img src="https://raw.githubusercontent.com/Dereck234/Calculator/main/assets/calculator-screenshot.png" alt="Screenshot of the calculator interface" width="360">
 </p>
 
 ## Features
