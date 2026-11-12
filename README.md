@@ -1,26 +1,44 @@
 # Calculator
 
-A responsive, keyboard-friendly calculator built with plain HTML, CSS, and JavaScript.
+A clean, responsive calculator built with HTML, CSS, and JavaScript. Use it online or run it locally with no setup.
 
-## Live website
+<p align="center">
+  <a href="https://dereck234.github.io/Calculator/"><strong>Open the live calculator →</strong></a>
+</p>
 
-[Open the calculator](https://dereck234.github.io/Calculator/)
+## Preview
 
-## Run locally
-
-Open `index.html` in a modern browser. No build step or dependencies are required.
+<p align="center">
+  <img src="assets/calculator-screenshot.png" alt="Screenshot of the calculator interface" width="360">
+</p>
 
 ## Features
 
 - Addition, subtraction, multiplication, division, and modulo
 - Decimal input, nested parentheses, and implicit multiplication
-- Safe expression evaluation with a tokenizer and recursive-descent parser
-- Keyboard support: digits and operators, Enter or = to calculate, Backspace to delete, and Escape to clear
-- Responsive four-column layout
+- Safe expression parsing without `eval()`
+- Keyboard support for numbers, operators, Enter, Backspace, and Escape
+- Responsive layout for desktop and mobile
 
-## Project files
+## Getting started
+
+Open `index.html` in a modern browser. The project has no build step or external dependencies.
+
+## Keyboard shortcuts
+
+| Key | Action |
+| --- | --- |
+| `0–9`, `.` | Enter numbers |
+| `+`, `-`, `*`, `/`, `%` | Enter operators |
+| `(`, `)` | Enter parentheses |
+| `Enter` or `=` | Calculate |
+| `Backspace` | Delete the last character |
+| `Escape` | Clear |
+
+## Project structure
 
 - `index.html` — calculator markup
-- `styles.css` — layout, colors, and responsive styling
-- `calculator.js` — input handling and expression evaluation
-- `.github/workflows/pages.yml` — automatic GitHub Pages deployment on pushes to `main`
+- `styles.css` — layout and visual styling
+- `calculator.js` — input handling and expression parser
+- `assets/calculator-screenshot.png` — project preview
+- `.github/workflows/pages.yml` — deploys the site to GitHub Pages on pushes to `main`
