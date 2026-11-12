@@ -2,13 +2,13 @@
 
 A responsive, keyboard-friendly calculator built with plain HTML, CSS, and JavaScript.
 
-## Open the calculator
+## Live website
 
-Visit the [Calculator project on GitHub](https://github.com/Dereck234/Calculator).
+[Open the calculator](https://dereck234.github.io/Calculator/)
 
 ## Run locally
 
-Download or clone this repository, then open `index.html` in a modern browser. No build step or dependencies are required.
+Open `index.html` in a modern browser. No build step or dependencies are required.
 
 ## Features
 
@@ -23,3 +23,4 @@ Download or clone this repository, then open `index.html` in a modern browser. N
 - `index.html` — calculator markup
 - `styles.css` — layout, colors, and responsive styling
 - `calculator.js` — input handling and expression evaluation
+- `.github/workflows/pages.yml` — automatic GitHub Pages deployment on pushes to `main`
