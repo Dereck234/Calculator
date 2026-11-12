@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141e30">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="calculator" aria-label="Calculator">
+    <output id="display" class="display" aria-live="polite" aria-label="Expression">0</output>
+    <section class="keypad" aria-label="Calculator keys">
+      <button class="key key-clear" data-action="clear" aria-label="All clear">AC</button>
+      <button class="key key-operator" data-value="()" aria-label="Parentheses">()</button>
+      <button class="key key-operator" data-value="%" aria-label="Modulo">%</button>
+      <button class="key key-operator" data-value="/" aria-label="Divide">÷</button>
+      <button class="key key-number" data-value="7">7</button>
+      <button class="key key-number" data-value="8">8</button>
+      <button class="key key-number" data-value="9">9</button>
+      <button class="key key-operator" data-value="*" aria-label="Multiply">×</button>
+      <button class="key key-number" data-value="4">4</button>
+      <button class="key key-number" data-value="5">5</button>
+      <button class="key key-number" data-value="6">6</button>
+      <button class="key key-operator" data-value="-" aria-label="Subtract">−</button>
+      <button class="key key-number" data-value="1">1</button>
+      <button class="key key-number" data-value="2">2</button>
+      <button class="key key-number" data-value="3">3</button>
+      <button class="key key-operator" data-value="+" aria-label="Add">+</button>
+      <button class="key key-number" data-value="0">0</button>
+      <button class="key key-number" data-value=".">.</button>
+      <button class="key key-number" data-action="delete" aria-label="Delete last character">
+        <svg class="delete-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3 3 12l6 9h12V3H9Zm3.4 4.9 2.6 2.6 2.6-2.6 1.4 1.4-2.6 2.6 2.6 2.6-1.4 1.4-2.6-2.6-2.6 2.6-1.4-1.4 2.6-2.6L11 9.3l1.4-1.4Z"/></svg>
+      </button>
+      <button class="key key-equals" data-action="equals" aria-label="Equals">=</button>
+    </section>
+  </main>
+  <script src="calculator.js"></script>
+</body>
+</html>
+
